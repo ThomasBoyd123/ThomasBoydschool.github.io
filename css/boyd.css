@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Pacifico&display=swap');
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 50px;
+    font-size: 20px;
+    background-color: #f0e0ff;
+    color: purple;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    font-weight: normal;
+}
+p, li {
+    max-width: 800px;
+}
+a {
+    color: mediumpurple;
+}
+p a {
+    background-color: mediumpurple;
+    padding: 0px 5px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+p a:hover {
+    background-color: rebeccapurple;
+}
